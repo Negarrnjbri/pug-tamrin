@@ -1,0 +1,39 @@
+.custom-footer{
+    position: relative;
+    top: -126px;
+}
+.custom-footer .strong{
+    font-size: 26px;
+}
+.custom-sentences p{
+    font-size: 18px;
+}
+.custom-seccond-sentences strong{
+    top: 24px;
+    left: 17px;
+}
+.custom-seccond-sentences ul{
+    position: absolute;
+    top: 60px;
+    left: 17px;
+}
+.fa-circle {
+    font-size: 8px;
+    color: #161616;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+.list-unstyled li span{
+    font-size: 18px;
+}
+.more-info{
+    margin-top: -112px;
+    margin-bottom: ;
+}
+.more-info a{
+    font-size: 18px;
+}

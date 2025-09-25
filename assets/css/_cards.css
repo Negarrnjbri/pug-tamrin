@@ -1,0 +1,47 @@
+.cards-container {
+    position: relative;
+    min-height: 450px;
+    margin-bottom: 2rem;
+}
+
+.card-custom {
+    border-left: 3px solid #02cbfd !important;
+    transition: all 0.3s ease;
+}
+
+.card-stack {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.card-stack.card-custom {
+    transform: translate(0, 0);
+}
+
+.card-stack:nth-child(2) .card-custom {
+    transform: translate(14px, -29px)
+}
+
+.card-stack:nth-child(3) .card-custom {
+    transform: translate(31px, -60px);
+}
+
+.card-stack:nth-child(4) .card-custom {
+        transform: translate(49px, -94px);
+}
+
+.card-stack:nth-child(5) .card-custom {
+    transform: translate(67px, -126px);
+}
+
+.custom-content {
+    white-space: nowrap;
+}
+
+.custom-content strong {
+    font-size: 22px;
+}
+
+.custom-content span {
+    font-size: 18px;
+}

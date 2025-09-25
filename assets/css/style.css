@@ -1,0 +1,60 @@
+@import '_cards.css';
+@import '_top-nav.css';
+@import '_mid-nav.css';
+@import '_title.css';
+@import '_footer.css';
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    direction: ltr;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* .container, .row, .col-sm-12 {
+    overflow: visible !important;
+} */
+@media (max-width: 1124px) {
+    .card-stack .card-custom {
+        transform: none !important;
+        margin-top: 1rem;
+    }
+
+    .custom-footer {
+        position: relative;
+        top: -36px;
+    }
+        .custom-content {
+        word-break: break-word;
+        white-space: normal !important;
+    }
+
+    .custom-content strong {
+        font-size: 16px !important;
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .custom-content span {
+        font-size: 14px !important;
+        display: block;
+        line-height: 1.4;
+    }
+}
